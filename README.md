@@ -4,7 +4,7 @@
 
 Le club t'apprend à programmer, de ta toute première ligne de code jusqu'à ton propre projet, puis à travailler avec les outils d'IA qu'utilisent aujourd'hui les développeurs. Aucune expérience n'est requise : on part de zéro, et si tu as déjà programmé, une piste avancée t'attend.
 
-- **Qui ?** Les élèves du secondaire (14 à 18 ans), débutants comme avancés.
+- **Qui ?** Les élèves du secondaire, débutants comme avancés.
 - **Quand ?** Une rencontre par semaine, tout au long de l'année.
 - **Avec quoi ?** Ton portable Windows. On installe tout ensemble.
 - **Langage :** Python, du début à la fin.
