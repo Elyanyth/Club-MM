@@ -78,7 +78,7 @@ Avec une boucle `for`, affiche `10, 9, 8, …, 1`, puis `Décollage! 🚀`.
 Ajoute à `carte.py` :
 
 1. une vérification de l'âge : tant que la personne entre un âge plus petit que 0 ou plus grand que 120, redemande-le ;
-2. à la fin, affiche le prénom autant de fois que la personne a de lettres dans son prénom. Indice : `len(nom)` donne le nombre de caractères de `nom`.
+2. à la fin, affiche le prénom autant de fois que la personne a de lettres dans son prénom. Pour connaître le nombre de caractères d'un texte, utilise `len` : `len("Léa")` donne `3`.
 
 ### Exercice 4 — La table de multiplication
 
@@ -93,7 +93,14 @@ Demande un nombre et affiche sa table de multiplication de 1 à 10 :
 
 ### Exercice 5 — La somme
 
-Demande un nombre `n` et calcule la somme de tous les nombres de 1 à `n`. Pour `n = 100`, tu dois obtenir `5050`. Indice : une variable `total` qui commence à `0` et à laquelle tu ajoutes quelque chose à chaque tour.
+Demande un nombre `n` et calcule la somme de tous les nombres de 1 à `n`. Pour `n = 100`, tu dois obtenir `5050`.
+
+<details>
+<summary>💡 Indice (clique pour afficher)</summary>
+
+Comment ferais-tu 1 + 2 + 3 + 4 + 5 avec une calculatrice ? Tu ne tapes pas tout d'un coup : tu gardes un résultat, et tu lui ajoutes le nombre suivant. Ce résultat qui grandit, c'est une variable. Revois l'exemple du `score` dans [Les variables](03-variables-types.md#les-variables), au guide 03.
+
+</details>
 
 ## Défi bonus
 
@@ -105,15 +112,19 @@ Demande un nombre `n` et calcule la somme de tous les nombres de 1 à `n`. Pour 
    ***
    ****
    ```
-   Indice : `"*" * 3` donne `"***"`.
+
+   <details>
+   <summary>💡 Indice (clique pour afficher)</summary>
+
+   Le défi bonus 3 du [guide 03](03-variables-types.md#défi-bonus) te faisait multiplier un texte par un nombre. Qu'est-ce que ça donnait ? Et quel nombre change à chaque ligne du triangle ?
+
+   </details>
+
 3. **FizzBuzz :** affiche les nombres de 1 à 30, mais remplace les multiples de 3 par `Fizz`, les multiples de 5 par `Buzz`, et les multiples des deux par `FizzBuzz`. C'est un exercice classique d'entrevue d'embauche!
+
+> [!tip] Pour pratiquer encore
+> [France-IOI](https://www.france-ioi.org/algo/chapters.php), **niveau 1** du parcours Python : les chapitres sur les répétitions, les variables, les tests et les conditions reprennent exactement ce que tu viens d'apprendre, avec des exercices corrigés automatiquement.
 
 ---
 
-## Tu as tout fini ?
-
-Bravo! Pour continuer à pratiquer en attendant la suite :
-
-- [France-IOI](https://www.france-ioi.org/algo/chapters.php) : fais le **niveau 1** du parcours Python. Les chapitres sur les répétitions, les variables, les tests et les conditions reprennent exactement ce que tu viens d'apprendre, avec des exercices corrigés automatiquement.
-- Améliore ta carte d'identité : ajoute des questions, des messages selon les réponses, un petit quiz à la fin… C'est **ton** programme.
-- Aide ton voisin : expliquer une notion est la meilleure façon de la maîtriser. Montre-lui comment utiliser le debugger plutôt que de lui donner la réponse.
+Suite : [07 — Les listes](07-listes.md)

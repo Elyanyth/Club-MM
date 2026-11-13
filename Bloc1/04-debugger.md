@@ -28,7 +28,7 @@ Ils sont dans la barre d'outils, à droite du ▶.
 | 5 | **Resume** | `F8` | Exécute le reste du programme normalement. |
 | 6 | **Stop** | `Ctrl+F2` | Arrête tout. |
 
-> [!tip] Le bug est gris ?
+> [!tip] Le debug est gris ?
 > Pendant que le debugger tourne, le bouton 🐞 devient gris : le programme est déjà en mode pas à pas. Il redevient coloré quand le programme est terminé ou arrêté.
 
 ## Essaie-le
@@ -101,8 +101,12 @@ print(moyenne)
 
 Utilise `F7` (Step into) sur la ligne de la moyenne. Dans quel ordre Python fait-il les calculs ? Corrige le programme.
 
-> [!tip] Indice
-> Comme en maths, Python fait les multiplications et les divisions **avant** les additions. Les parenthèses changent l'ordre.
+<details>
+<summary>💡 Indice (clique pour afficher)</summary>
+
+Note sur papier chaque étape que `F7` te montre. Quel calcul Python fait-il en premier ? Est-ce celui que tu voulais ? En maths, quand tu veux qu'un calcul se fasse avant les autres, qu'est-ce que tu écris ?
+
+</details>
 
 ### Exercice 3 — Ta carte au ralenti
 

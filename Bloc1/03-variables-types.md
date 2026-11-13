@@ -139,7 +139,14 @@ Dans 10 ans, tu auras 25 ans.
 Ajoute à ta carte :
 
 1. ta grandeur en mètres (un `float`, par exemple `1.65`), puis affiche-la en centimètres ;
-2. une variable `est_majeur` qui vaut `True` ou `False` selon ton âge (indice : `age >= 18`), et affiche-la.
+2. une variable `est_majeur` qui vaut `True` ou `False` selon ton âge, et affiche-la.
+
+   <details>
+   <summary>💡 Indice (clique pour afficher)</summary>
+
+   Un `bool`, c'est la réponse à une question par oui ou par non : « Est-ce que j'ai 18 ans ou plus ? ». Relis la fin de la section [Les opérations](#les-opérations) : certaines opérations donnent justement `True` ou `False`.
+
+   </details>
 
 Lance le programme, puis regarde le panneau **Variables** : vérifie le type de chaque valeur.
 
@@ -149,7 +156,15 @@ Dans un **nouveau** fichier `calcul.py`, demande deux nombres, puis affiche leur
 
 ## Défi bonus
 
-1. Demande un nombre de secondes (par exemple `4000`) et affiche-le en heures, minutes et secondes (`1 h 6 min 40 s`). Indice : `//` et `%` sont tes amis.
+1. Demande un nombre de secondes (par exemple `4000`) et affiche-le en heures, minutes et secondes (`1 h 6 min 40 s`).
+
+   <details>
+   <summary>💡 Indice (clique pour afficher)</summary>
+
+   Commence par les heures : combien de secondes y a-t-il dans une heure ? Combien d'heures complètes entrent dans 4000 secondes, et combien de secondes reste-t-il ensuite ? Dans le tableau des [opérations](#les-opérations), deux lignes parlent de division : l'une répond à « combien de fois », l'autre à « combien il reste ».
+
+   </details>
+
 2. Demande ton année de naissance et calcule environ combien de jours tu as vécu.
 3. Que donne `"ha" * 3` ? Et `"3" + "4"` ? Devine d'abord, puis essaie dans la console.
 

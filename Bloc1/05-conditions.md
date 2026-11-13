@@ -84,7 +84,14 @@ Lance ta carte dans le debugger (`Ctrl+F5`). Quand tu arrives sur un `if`, utili
 
 ### Exercice 3 — Pair ou impair
 
-Demande un nombre et dis s'il est pair ou impair. Indice : un nombre pair a un reste de `0` quand on le divise par 2 (`%`).
+Demande un nombre et dis s'il est pair ou impair.
+
+<details>
+<summary>💡 Indice (clique pour afficher)</summary>
+
+Divise quelques nombres par 2 dans ta tête : 4, 7, 10, 13. Qu'est-ce que les nombres pairs ont tous en commun ? Une des opérations du [guide 03](03-variables-types.md#les-opérations) te donne exactement cette information.
+
+</details>
 
 ### Exercice 4 — Le mot de passe
 

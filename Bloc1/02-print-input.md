@@ -74,8 +74,14 @@ Où habites-tu? Sherbrooke
 Salut Léa, de Sherbrooke!
 ```
 
-> [!tip] Indice
-> Tu as besoin de deux `input`, chacun gardé dans sa propre variable. Pour coller le `!` sans espace, tu peux écrire `print("Salut " + nom + ", de " + ville + "!")`. Le `+` colle des textes ensemble.
+Pour coller du texte **sans espace**, utilise `+` au lieu de la virgule : `"Salut " + "Léa"` donne `"Salut Léa"`. Pense à mettre toi-même les espaces dans les guillemets.
+
+<details>
+<summary>💡 Indice (clique pour afficher)</summary>
+
+Relis l'exemple de la section [Poser une question avec `input`](#poser-une-question-avec-input) : une question, une réponse, une variable. Combien de questions poses-tu ici ?
+
+</details>
 
 ## Défi bonus
 
